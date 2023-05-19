@@ -30,3 +30,14 @@ $$b_3 = 2\pi/a_3 $$
 It is worth noting that the units of the reciprocal lattice vectors are 1/Angstrom, which is different from the Angstrom units of the direct lattice.
 
 ### (b)
+
+The wavevector $k$ at the first Brillouin zone boundary corresponds to the reciprocal lattice vectors.
+
+In an orthorhombic crystal with lattice parameters $a$, $b$, $c$:
+
+For the $[010]$ direction, the corresponding reciprocal vector will have a magnitude of $\pi/b$. Therefore, the wavevector at the boundary in this direction will be $k = \pi/b$ (in units of inverse Angstroms).
+
+Similarly, for the $[110]$ direction, the magnitude of the corresponding reciprocal vector will be $\pi/\sqrt(a^2+b^2)$, so the wavevector will be $k = \pi/\sqrt(a^2+b^2)$.
+
+For the $[111]$ direction, the reciprocal vector will have a magnitude of $\pi/\sqrt(a^2+b^2+c^2)$, thus the wavevector will be $k = \pi/\sqrt(a^2+b^2+c^2)$.
+
