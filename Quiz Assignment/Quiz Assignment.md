@@ -43,6 +43,31 @@ For the $[111]$ direction, the reciprocal vector will have a magnitude of $\pi/\
 
 ### (c)
 
+metal
+
+### (d)
+
+We have:
+$$ E_c = 0.7\left[\frac{1}{5} - \frac{1}{2}sin^2\left(\frac{k_x a}{2}\right) \right] $$
+$$ E_v = 0.6[cos(k_x a)-1] $$
+
+For an orthorhombic crystal, the group velocity of electrons in the conduction band can be calculated by taking the derivative of the energy E with respect to the wavevector k:
+
+$$ v_g = \frac{1}{\hbar}\frac{{\mathrm d}E}{{\mathrm d}k} $$
+
+In the given E_c, we can take the derivative with respect to $k_x$. Considering the known lattice constant a, we obtain:
+
+$$ \frac{{\mathrm d}E_c}{{\mathrm d}k_x} = -0.7a\sin(k_xa)\cos(k_xa) $$
+
+At $k_x = 0$, the group velocity $v_g = 0$ (since both sin and cos are 0 at this point).
+
+At $k_x = pi/(2a)$, inserting into the above expression, as $\cos(\pi/2) = 0$ and $\sin(\pi/2) = 1$, we get:
+
+$\frac{{\mathrm d}E_c}{{\mathrm d}k_x} = 0$
+
+Thus, the group velocity of electrons in the conduction band is 0 at both $k_x = 0$ and $k_x = \pi/(2a)$.
+
+
 ## 2
 
 ## 3
