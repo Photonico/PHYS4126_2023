@@ -67,8 +67,27 @@ $\frac{{\mathrm d}E_c}{{\mathrm d}k_x} = 0$
 
 Thus, the group velocity of electrons in the conduction band is 0 at both $k_x = 0$ and $k_x = \pi/(2a)$.
 
-
 ## 2
+
+### （a）
+
+The basis for the perovskite structure of strontium titanate (SrTiO3) consists of four atoms: one Sr atom, one Ti atom, and three O atoms.
+
+In terms of lattice coordinates, we could represent the positions as follows:
+
+Sr is at the corner of the cube, its position can be given as $(0, 0, 0)$.
+Ti is at the center of the cube, its position can be given as $(1/2, 1/2, 1/2)$.
+O atoms are in the center of each face of the cube, their positions can be given as $(1/2, 1/2, 0)$, $(1/2, 0, 1/2)$, and $(0, 1/2, 1/2)$.
+
+### (b)
+
+The X-ray structure factor (F) can be calculated from the following formula:
+
+$$ F = \sum f_j\exp(2\pi i(hu_j + kv_j + lw_j)) $$
+
+### (c)
+
+### (d)
 
 ## 3
 
