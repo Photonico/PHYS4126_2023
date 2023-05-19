@@ -41,3 +41,11 @@ Similarly, for the $[110]$ direction, the magnitude of the corresponding recipro
 
 For the $[111]$ direction, the reciprocal vector will have a magnitude of $\pi/\sqrt(a^2+b^2+c^2)$, thus the wavevector will be $k = \pi/\sqrt(a^2+b^2+c^2)$.
 
+### (c)
+
+## 2
+
+## 3
+
+## 4
+
