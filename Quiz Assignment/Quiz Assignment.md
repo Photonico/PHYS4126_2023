@@ -30,4 +30,3 @@ $$b_3 = 2\pi/a_3 $$
 It is worth noting that the units of the reciprocal lattice vectors are 1/Angstrom, which is different from the Angstrom units of the direct lattice.
 
 ### (b)
-
