@@ -41,4 +41,46 @@ c: $−3E-5$: This is a negative value, suggesting that material c is diamagneti
 
 ## 3
 
+Diamagnetic susceptibility for a Helium atom ($\chi_{\rm atom}$) can be calculated using:
+
+$$ \chi_{\rm atom} = -e^2r^2/(6m_e c^2) $$
+
+And molar susceptibility ($\chi_m$) can be obtained by:
+
+$$ \chi_m = 2\chi_{\rm atom}N_A $$
+
+Here, $e$ is electron charge;
+
+$m_e$ is electron mass;
+
+$c$ is speed of light;
+
+$N_A$ is Avogadro's number;
+
+and we have the electron radius $r$ is $r=0.58 \rm\r{A}=0.58\times10^{10}{\rm m}$.
+
+We arrive:
+
+$$ \chi_m = 2\chi_{\rm atom}N_A \approx -2.1138742735358325e-22$$
+
 ## 4
+
+For a magnetic dipole moment ($µ$) rotates in a magnetic field ($B$). The energy change ($\Delta E$) can be given by:
+
+$$ \Delta E = -\mu \times \Delta B $$
+
+In this case, the magnetic moment rotates from antiparallel to parallel, the total change of magnetism is $2B$, then, we infer:
+
+$$ \Delta E = -2\mu\mu_0H $$
+
+and:
+
+$$ \Delta E = -2\times2\mu_B\mu_0H $$
+
+To obtain the energy change in units of $k_BT$, we divide $\Delta E$ by $k_B T$:
+
+$$ \frac{\Delta E}{k_B T} = \frac{-4\mu_B\mu_0 H}{k_B T}$$
+
+As a result, we arrive:
+
+$$ \frac{\Delta E}{k_B T} \approx 0.01125470421668071$$
