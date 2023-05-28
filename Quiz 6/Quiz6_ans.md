@@ -33,11 +33,11 @@ In an n-type semiconductor, the Fermi level (chemical potential) is closer to th
 
 ## 2
 
-a: $1E−4$: This is a small, positive value, suggesting that material a is paramagnetic.
+a: $1E-4$: This is a small, positive value, suggesting that material a is paramagnetic.
 
 b: $2E5$: This is a large, positive value, suggesting that material b is ferromagnetic.
 
-c: $−3E-5$: This is a negative value, suggesting that material c is diamagnetic.
+c: $-3E-5$: This is a negative value, suggesting that material c is diamagnetic.
 
 ## 3
 
