@@ -112,16 +112,74 @@ $$\begin{align*}
 
 ## 4
 
+* Point A: Velocity is negative (moving in the negative k direction), and the effective mass is negative.
+
+* Point B: Velocity is negative, and the effective mass is positive.
+
+* Point C: Velocity is positive (moving in the positive k direction), and the effective mass is positive.
+
+* Point D: Velocity is positive, and the effective mass is negative.
+
+The effective mass is likely largest near points B or C, where the curvature (second derivative) of the E-k curve is maximal.
+
 ## 5
 
 ### (a)
 
+* Sign of Majority Carriers: Use the Hall effect. The sign of the Hall voltage indicates the charge carrier type.
+
+* Carrier Concentration: Hall effect measurements can also determine the carrier concentration by measuring the magnitude of the Hall voltage.
+
+* Band Gap: Photoluminescence spectroscopy or UV-Vis absorption spectroscopy can determine the band gap through the onset of absorption.
+
+* Mobility of Majority Carriers: Field-effect transistor (FET) measurements or Hall effect measurements can calculate carrier mobility.
+
 ### (b)
+
+In an intrinsic semiconductor, the conductivity increases with temperature. This is because as the temperature rises, more electrons gain enough energy to jump from the valence band to the conduction band, which increases the number of charge carriers available for conduction.
+
+On the other hand, in a metallic conductor, the conductivity typically decreases as temperature increases. As temperature rises, the thermal vibrations of the atomic lattice increase, which leads to more scattering of the conduction electrons, thereby increasing the electrical resistance and reducing the conductivity.
 
 ## 6
 
 ### (a)
 
+Larmor diamagnetism, also known as Landau diamagnetism, arises from the motion of charged particles, particularly electrons, in response to an applied magnetic field. When a magnetic field is applied, the electron orbits will be slightly shifted due to the force exerted by the magnetic field, which is perpendicular to the velocity of the electron.
+
+According to Larmor's theorem, this results in an induced current. The direction of this induced current will be such that it opposes the change in the magnetic field inside the electron's orbit, according to Lenz's law. The opposition to the change in magnetic field is effectively a diamagnetic response.
+
+This means that Larmor diamagnetism is a property of all materials, because all materials contain electrons, which will react to an external magnetic field in this way. However, in many materials, this diamagnetic response is often overshadowed by other magnetic effects, such as paramagnetism or ferromagnetism.
+
 ### (b)
 
-7
+As argon is diamagnetic, The magnetic susceptibility ($\chi$) of argon can be calculated from the formula for Larmor diamagnetism:
+
+$$ \chi_{\rm Larmor} = - \frac{Zne^2\mu_0 \langle r^2\rangle}{6m} $$
+
+where $Z$ is the atomic number of argon: $Z = 18$;
+
+$n$ is the number of atoms per unit volume:
+
+$$ n = \frac{4}{a^3} \approx  2.7485 \rm{m}^{-3} $$
+
+$\langle r^2\rangle$ is the mean square radius:
+
+$$ r \approx (1.88 \rm\r{A})^2 \approx 3.5344 \rm\r{A}^2$$
+
+We can get the result:
+
+$$ \chi_{\rm Larmor} \approx 1.0317\times10^4 $$
+
+## 7
+
+### Superconductivity
+
+Superconductivity is a quantum mechanical phenomenon observed in certain materials, where electrical resistance disappears and magnetic flux fields are expelled from the material below a certain critical temperature, known as the superconducting transition temperature (Tc).
+
+Two key features define superconductivity:
+
+Zero electrical resistance: Below the critical temperature, superconductors carry electric current without any dissipation. This means that an electrical current could continue to circulate in a superconducting loop theoretically forever.
+
+Meissner effect: Superconductors expel magnetic fields from their interior, a phenomenon known as the Meissner effect. As a result, a magnet placed above a superconductor will levitate due to this magnetic field expulsion.
+
+These properties arise from the formation of Cooper pairs, pairs of electrons with opposite momentum and spin, which move through the lattice without scattering off impurities or lattice vibrations (phonons). This pairing mechanism, proposed by Bardeen, Cooper, and Schrieffer, is known as BCS theory, which successfully explains conventional low-temperature superconductivity.
