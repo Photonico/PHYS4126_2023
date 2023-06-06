@@ -17,10 +17,10 @@ For Copper:
 Atomic density of copper: $n_{\rm Copper} = 8.45 \times 10^{28} m^{-3}$
 
 Due to Fermi energy:
-$$ E_F = \frac{\hbar^2}{2m}(3\pi^2n_{\rm Copper})^{2/3} $$
+$$ E_F = \frac{\hbar^2}{2m}(3\pi^2n_\text{Copper})^{2/3} $$
 
 We have:
-$$ E_F\approx 1.125 \times10^{-18} {\rm J}$$
+$$ E_F\approx 1.125 \times10^{-18} {\text J}$$
 
 Fermi temperature have the following relation: $k_B T_F=E_F$.
 
@@ -50,35 +50,27 @@ Van der Waals Bonding: Weak forces due to transient polarization of electron clo
 
 The primitive vectors of a reciprocal lattice can be determined using the following formulas:
 
-$$\begin{align*}
-b_1&= 2\pi\frac{a_2\times a_3}{a_1\cdot(a_2\times a_3)} \\
-b_2&= 2\pi\frac{a_3\times a_1}{a_1\cdot(a_2\times a_3)} \\
-b_3&= 2\pi\frac{a_1\times a_2}{a_1\cdot(a_2\times a_3)}
-\end{align*}$$
+$$b_1= 2\pi\frac{a_2\times a_3}{a_1\cdot(a_2\times a_3)}$$
+$$b_2= 2\pi\frac{a_3\times a_1}{a_1\cdot(a_2\times a_3)}$$
+$$b_3= 2\pi\frac{a_1\times a_2}{a_1\cdot(a_2\times a_3)}$$
 
 We have the real-space primitive vectors are:
 
-$$\begin{align*}
-a_1 &= (a, 0, 0) \\
-a_2 &= (0, a, 0) \\
-a_3 &= (0, 0, c)
-\end{align*}$$
+$$a_1 = (a, 0, 0)$$
+$$a_2 = (0, a, 0)$$
+$$a_3 = (0, 0, c)$$
 
 Then, we can infor:
 
-$$\begin{align*}
-b_1 &= (0, 0, 2\pi/a) \\
-b_2 &= (0, 0, -2\pi/a) \\
-b_3 &= (0, 0, 2\pi/c)
-\end{align*}$$
+$$b_1 = (0, 0, 2\pi/a)$$
+$$b_2 = (0, 0, -2\pi/a)$$
+$$b_3 = (0, 0, 2\pi/c)$$
 
 Given that $a = 4.2 \rm\r{A}$, and $c = 6.3 \rm\r{A}$, we arrive:
 
-$$\begin{align*}
-b_1 &= (0, 0, 0.5\rm\r{A}) \\
-b_2 &= (0, 0, -0.5\rm\r{A}) \\
-b_3 &= (0, 0, 0.32\rm\r{A})
-\end{align*}$$
+$$b_1 = (0, 0, 0.5\rm\r{A})$$
+$$b_2 = (0, 0, -0.5\rm\r{A})$$
+$$b_3 = (0, 0, 0.32\rm\r{A})$$
 
 ### (b)
 
@@ -96,19 +88,16 @@ Given that the crystal is $a$ body-centered tetragonal structure with lattice pa
 
 Given that $a = 4.2 \rm\r{A}$, and $c = 6.3 \rm\r{A}$, we arrive:
 
-$$\begin{align*}
-d_{(1 1 0)} &= 5.94 \rm\r{A} \\
-d_{(2 0 0)} &= 2.10 \rm\r{A} \\
-d_{(1 1 1)} &= 7.82 \rm\r{A}
-\end{align*}$$
+$$d_{(1 1 0)} = 5.94 \rm\r{A}$$
+$$d_{(2 0 0)} = 2.10 \rm\r{A}$$
+$$d_{(1 1 1)} = 7.82 \rm\r{A}$$
 
 Using Bragg's law, we arrive:
 
-$$\begin{align*}
-\theta_{(1 1 0)} &= 0.251 \rm{rad} \\
-\theta_{(2 0 0)} &= 0.730 \rm{rad} \\
-\theta_{(1 1 1)} &= 0.192 \rm{rad}
-\end{align*}$$
+$$\theta_{(1 1 0)} = 0.251 \rm{rad}$$
+$$\theta_{(2 0 0)} = 0.730 \rm{rad}$$
+$$\theta_{(1 1 1)} = 0.192 \rm{rad}$$
+
 
 ## 4
 
